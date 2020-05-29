@@ -1,1 +1,1 @@
-# repository-template
+# repository-template-quantum

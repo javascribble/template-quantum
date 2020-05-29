@@ -1,3 +1,4 @@
+import { modulify } from '@javascribble/rollup-plugin-modulify';
 import resolve from '@rollup/plugin-node-resolve';
 
 export default {
@@ -7,6 +8,7 @@ export default {
 		format: 'es'
 	},
 	plugins: [
-		resolve()
-	]
+		resolve(),
+		modulify()
+	]	
 };
