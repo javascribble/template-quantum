@@ -1,0 +1,33 @@
+{
+    "name": "",
+    "description": "",
+    "version": "0.0.0",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+	    "@rollup/plugin-node-resolve": "*",
+        "npm-run-all": "*",
+        "rollup": "*",
+        "serve": "*"
+	},
+    "scripts": {
+        "serve": "serve ./",
+        "build": "rollup -c template.rollup.config.js",
+        "watch": "rollup -w -c template.rollup.config.js",
+        "start": "npm-run-all --parallel serve watch",
+        "postversion": "npm publish --access public"
+    },
+    "main": "./source/main.js",
+    "homepage": "https://github.com/#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/.git"
+    },
+    "bugs": {
+        "url": "https://github.com//issues"
+    },
+    "keywords": [],
+    "files": [
+        "source"
+    ]
+}
