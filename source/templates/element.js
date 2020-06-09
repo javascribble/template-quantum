@@ -1,5 +1,3 @@
-import { template } from '@javascribble/quantum';
-import markup from '../markup/element.html';
-import styles from '../styles/element.css';
+import { template } from '../../references/quantum.js';
 
-export const element = template(markup, styles);
+export const element = template('', '');

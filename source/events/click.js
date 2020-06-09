@@ -1,4 +1,4 @@
-import { raise, preventDefault } from '@javascribble/quantum';
+import { raise, preventDefault } from '../../references/quantum.js';
 
 const click = 'click';
 

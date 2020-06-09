@@ -1,4 +1,4 @@
-import { Quantum, define } from '@javascribble/quantum';
+import { Quantum, define } from '../../references/quantum.js';
 import { element } from '../templates/element.js';
 
 export class Element extends Quantum {
