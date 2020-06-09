@@ -1,5 +1,3 @@
-const name = 'name';
-
-export const renderName = element => value => {
-    element.innerText = text;
+export const name = elements => value => {
+    elements.name.innerText = value;
 };
