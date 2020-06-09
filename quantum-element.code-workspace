@@ -1,15 +1,12 @@
 {
     "folders": [
         {
-            "name": "references",
             "path": "references"
         },
         {
-            "name": "source",
             "path": "source"
         },
         {
-            "name": "test",
             "path": "test"
         }
     ]
