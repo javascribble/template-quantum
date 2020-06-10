@@ -1,2 +1,2 @@
-export const click = (dispatcher, elements, attributes) => {
+export const click = (elements, dispatcher, attributes) => {
 };
