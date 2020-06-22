@@ -8,10 +8,6 @@ export class Element extends Quantum {
         super(element);
     }
 
-    static elements = {
-        slot: 'slot'
-    };
-
     static attributes = {
         name
     };
