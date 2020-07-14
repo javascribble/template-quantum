@@ -1,1 +1,5 @@
-fetch('/source/templates/element.html').then(response => response.text().then(html => document.body.insertAdjacentHTML('beforeend', html)))
+const resources = [
+    '/source/templates/element.html'
+];
+
+Promise.all(resources.map(resource => fetch(resource).then(response => response.text().then(html => document.body.insertAdjacentHTML('beforeend', html)))));
