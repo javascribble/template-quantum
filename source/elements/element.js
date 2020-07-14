@@ -1,20 +1,14 @@
-import { Quantum, define } from '../../references/quantum.js';
+import { Component } from '../../references/quantum.js';
 import { element } from '../templates/element.js';
-import { name } from '../attributes/name.js';
-import { click } from '../events/click.js';
 
-export class Element extends Quantum {
+export class Element extends Component {
     constructor() {
-        super(element);
+        super();
     }
 
-    static attributes = {
-        name
-    };
+    static template = element;
 
-    static events = {
-        click
-    };
+    static attributes = [];
 }
 
-define(Element);
+customElements.define('quantum-element', Element);
