@@ -1,3 +1,3 @@
-import '../source/main.js';
+import '/source/main.js';
 
 document.body.style.visibility = 'visible';
