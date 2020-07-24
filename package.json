@@ -4,8 +4,8 @@
     "version": "0.0.0",
     "license": "MIT",
     "dependencies": {
-		"@javascribble/quantum": "*"
-	},
+        "@javascribble/quantum": "^0.4.9"
+    },
     "devDependencies": {
         "live-server": "*"
     },
@@ -25,7 +25,7 @@
     "keywords": [
         "web",
         "components",
-		"quantum"
+        "quantum"
     ],
     "files": [
         "references",
