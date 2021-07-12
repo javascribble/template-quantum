@@ -1,20 +1,20 @@
 {
     "name": "@javascribble/quantum-element",
     "description": "",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "license": "MIT",
     "dependencies": {
-        "@javascribble/quantum": "^1.5.0"
+        "@javascribble/quantum": "^1.5.6"
     },
     "devDependencies": {
         "live-server": "*"
     },
     "scripts": {
-		"build": "cd ../rollup-quantum-build && npm start ../template-quantum/source ../template-quantum/build",
+		"build": "cd ../rollup-quantum-build && npm start ../template-quantum",
         "start": "live-server --open=/test/debug.html",
         "postversion": "npm publish --access public"
     },
-    "main": "./source/main.js",
+    "main": "./bundles/main.js",
     "homepage": "https://github.com/javascribble/quantum-element#readme",
     "repository": {
         "type": "git",
@@ -30,6 +30,7 @@
     ],
     "files": [
         "build",
+		"bundles",
         "source"
     ]
 }
