@@ -1,1 +1,1 @@
-export { Element as default } from '../source/elements/element.js';
+export * from '../source/elements/element.js';
